@@ -45,7 +45,7 @@ Note that I have only tested on macOS. I have left the windows files in the repo
 
 ## Example curl commands:
 curl -X POST http://localhost:8080/record\?memberName\=doubledot\&maxConnections\=20\&status\=Active
-curl -X POST http://localhost:8080/record\?memberName\=doubledot2\&maxConnections\=20\&status\=Decommisioned
+curl -X POST http://localhost:8080/record\?memberName\=doubledot2\&maxConnections\=20\&status\=Decommissioned
 curl -X POST http://localhost:8080/record\?memberName\=doubledot3\&maxConnections\=20\&status\=Suspended
 curl -X GET http://localhost:8080/records
 curl -X PUT http://localhost:8080/record\?memberName\=doubledot\&maxConnections\=5\&status\=Suspended
